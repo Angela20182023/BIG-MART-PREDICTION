@@ -5,7 +5,7 @@ import numpy as np
 # Load the trained model
 @st.cache_resource
 def load_model():
-    return pickle.load(open("trained_model.sav", "rb"))
+    return pickle.load(open("trained_pred_model.sav", "rb"))
 
 model = load_model()
 
